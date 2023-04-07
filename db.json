@@ -1,0 +1,402 @@
+{
+    "react": {
+        "id":1,
+        "containReact": [
+            {
+                "id": 1,
+                "questionText": "Qu'est-ce que React ?",
+                "answerOptions": [ 
+                    {"answerText": "Une bibliothèque JavaScript pour la création d'interfaces utilisateur", "isCorrect": true },
+                    {"answerText": "Un langage de programmation pour le développement web", "isCorrect": false} ,
+                    {"answerText": "Un système de gestion de base de données", "isCorrect": false}     
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Quels sont les trois pierres angulaire du react?",
+                "answerOptions": [ 
+                    {"answerText": "components, state, virtual DOM", "isCorrect": false} ,
+                    {"answerText": "components, state, props", "isCorrect": true} ,
+                    {"answerText": "components, state, life cycle", "isCorrect": false}     
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Qu'est-ce que JSX ?",
+                "answerOptions": [  
+                    {"answerText": "Un langage de programmation similaire à JavaScript", "isCorrect": false} ,
+                    {"answerText": "Une syntaxe de balisage qui permet d'écrire du code HTML dans du code JavaScript", "isCorrect": true} ,
+                    {"answerText": "Un outil de développement pour la création d'interfaces utilisateur avec React", "isCorrect": false}    
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Quelle est l'approche utilisée par React pour la création d'interfaces utilisateur ?",
+                "answerOptions": [ 
+                    {"answerText": "L'approche basée sur les modèles", "isCorrect": false} ,
+                    {"answerText": "L'approche basée sur les composants", "isCorrect": true },
+                    {"answerText": "L'approche basée sur les fonctions", "isCorrect": false}   
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Comment appelle-t-on un bloc de construction réutilisable dans React ?",
+                "answerOptions": [ 
+                    {"answerText": "Une fonction", "isCorrect": false} ,
+                    {"answerText": "Un module", "isCorrect": false} ,
+                    {"answerText": "Un composant", "isCorrect": true }    
+                ]
+            },
+            {
+                "id": 6,
+                "questionText": "Comment peut-on passer des données d'un composant parent à un composant enfant dans React ?",
+                "answerOptions": [ 
+                    {"answerText": "En utilisant la méthode setState()", "isCorrect": false} ,
+                    {"answerText": "En utilisant la méthode render()", "isCorrect": false} ,
+                    {"answerText": "En passant des propriétés (props) au composant child", "isCorrect": true }
+                ]
+            },
+            {
+                "id": 7,
+                "questionText": "Quelle est la lifecycle method appelée lorsque le composant est monté dans le DOM ?",
+                "answerOptions": [ 
+                    {"answerText": "componentDidMount()", "isCorrect": true },
+                    {"answerText": "componentWillMount()", "isCorrect": false} ,
+                    {"answerText": "render()", "isCorrect": false} 
+                ]
+            },
+            {
+                "id": 8,
+                "questionText": "Quelle est la méthode utilisée pour rendre un composant dans React ?",
+                "answerOptions": [
+                    {"answerText": "mount()", "isCorrect": false} ,
+                    {"answerText": "render()", "isCorrect": true} ,
+                    {"answerText": "update()", "isCorrect": false} 
+                ]
+            },
+            {
+                "id": 9,
+                "questionText": "Qu'est-ce que Redux ?",
+                "answerOptions": [
+                    {"answerText": "Une bibliothèque pour la gestion de l'état d'une application React", "isCorrect": true },
+                    {"answerText": "Un système de gestion de base de données", "isCorrect": false} ,
+                    {"answerText": "Un outil pour la création d'interfaces utilisateur avec React", "isCorrect": false} 
+                ]
+            },
+            {
+                "id": 10,
+                "questionText": "Qu'est-ce que React Native ?",
+                "answerOptions": [
+                    {"answerText": "Une bibliothèque pour la création d'interfaces utilisateur pour des applications de bureau", "isCorrect": false} ,
+                    {"answerText": "Un langage de programmation pour la création d'applications mobiles", "isCorrect": false} ,
+                    {"answerText": "Une bibliothèque pour la création d'interfaces utilisateur pour des applications mobiles", "isCorrect": true }
+                ]
+            }
+        ]
+    },
+    "js": {
+        "id": 2,
+        "containJs": [
+            {
+                "id": 1,
+                "questionText": "Comment déclarer une variable en JavaScript?",
+                "answerOptions": [
+                    {"answerText": "var myVar", "isCorrect": false},
+                    {"answerText": "let myVar", "isCorrect": false} ,
+                    {"answerText": "const myVar", "isCorrect": false} ,
+                    {"answerText": "Toutes les réponses sont correctes", "isCorrect": true}
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Comment appeler une fonction en JavaScript?",
+                "answerOptions": [
+                    {"answerText": "myFunction()", "isCorrect": true} ,
+                    {"answerText": "call myFunction", "isCorrect": false} ,
+                    {"answerText": "myFunction", "isCorrect": false} ,
+                    {"answerText": "function myFunction", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Quel est le type de données de base en JavaScript ?",
+                "answerOptions": [
+                    {"answerText": "Number", "isCorrect": false} ,
+                    {"answerText": "String", "isCorrect": false} ,
+                    {"answerText": "Boolean", "isCorrect": false} ,
+                    {"answerText": "Toutes les réponses ci-dessus", "isCorrect": true}
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Comment peut-on convertir une chaîne de caractères en nombre en JavaScript ?",
+                "answerOptions": [
+                    {"answerText": "En utilisant la méthode toString()", "isCorrect": false} ,
+                    {"answerText": "En utilisant la méthode parseInt()", "isCorrect": true },
+                    {"answerText": "En utilisant la méthode parseFloat()", "isCorrect": true }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Comment peut-on accéder à un élément dans le DOM en JavaScript ?",
+                "answerOptions": [ 
+                    {"answerText": "En utilisant la méthode getElementById()", "isCorrect": true} ,
+                    {"answerText": "En utilisant la méthode getElementsByClassName()", "isCorrect": false} ,
+                    {"answerText": "En utilisant la méthode getElementsByTagName()", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 6,
+                "questionText": "Comment peut-on ajouter un événement à un élément dans le DOM en JavaScript ?",
+                "answerOptions": [
+                    {"answerText": "En utilisant la méthode attachEvent()", "isCorrect": false} ,
+                    {"answerText": "En utilisant la méthode addEventListener()", "isCorrect": true },
+                    {"answerText": "En utilisant la méthode onClick()", "isCorrect": false} 
+                ]
+            },
+            {
+                "id": 7,
+                "questionText": "Comment parcourir un tableau en JavaScript?",
+                "answerOptions": [
+                    {"answerText": "for (i = 0; i < array.length; i++)", "isCorrect": true} ,
+                    {"answerText": "for (i = 0; i <= array.length; i++)", "isCorrect": false} ,
+                    {"answerText": "for (i = 1; i < array.length; i++)", "isCorrect": false},
+                    {"answerText": "for (i = 0; i < array.length(); i++)", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 8,
+                "questionText": "Comment créer une arrow fonction en JavaScript?",
+                "answerOptions": [
+                    {"answerText": "function myFunction() => {}", "isCorrect": false} ,
+                    {"answerText": "var myFunction = function() => {}", "isCorrect": false} ,
+                    {"answerText": "let myFunction = () => {}", "isCorrect": true},
+                    {"answerText": "const myFunction => {}", "isCorrect": false} 
+                ]
+            },
+            {
+                "id": 9,
+                "questionText": "Quelle est la différence entre la méthode call() et la méthode apply() en JavaScript?",
+                "answerOptions": [
+                    {"answerText": "call() et apply() sont deux noms différents pour la même méthode", "isCorrect": false} ,
+                    {"answerText": "call() prend un nombre variable d'arguments sous forme d'objet, tandis que apply() prend un tableau d'argument", "isCorrect": true} ,
+                    {"answerText": "apply() prend un nombre variable d'arguments sous forme d'objet, tandis que call() prend un tableau d'arguments", "isCorrect": false},
+                    {"answerText": "Il n'y a pas de différence entre call() et apply()", "isCorrect": false} 
+                ]
+            },
+            {
+                "id": 10,
+                "questionText": "Comment peut-on gérer les erreurs dans JavaScript ?",
+                "answerOptions": [
+                    {"answerText": "En utilisant la méthode try...catch", "isCorrect": true},
+                    {"answerText": "En utilisant la méthode throw", "isCorrect": true} ,
+                    {"answerText": "En utilisant la méthode console.log()", "isCorrect": false} 
+                ]
+            }
+
+        ]
+    },
+    "java": {
+        "id": 3,
+        "containJava": [
+            {
+                "id": 1,
+                "questionText": "Qu'est-ce qu'une interface en Java ?",
+                "answerOptions": [
+                    {"answerText": "C'est une classe abstraite qui ne peut pas être instanciée", "isCorrect": false},
+                    {"answerText": "C'est une classe qui ne peut pas être héritée", "isCorrect": false} ,
+                    {"answerText": "C'est une spécification de méthodes qu'une classe doit implémenter", "isCorrect": true} ,
+                    {"answerText": "C'est une méthode abstraite qui doit être implémentée par une classe", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Quelle est la différence entre une classe abstraite et une interface en Java ?",
+                "answerOptions": [
+                    {"answerText": "Une classe abstraite peut être instanciée, tandis qu'une interface ne peut pas l'être", "isCorrect": false},
+                    {"answerText": "Une classe abstraite peut implémenter une interface, tandis qu'une interface ne peut pas hériter d'une classe abstraite", "isCorrect": false} ,
+                    {"answerText": "Il n'y a pas de différence entre une classe abstraite et une interface", "isCorrect": false} ,
+                    {"answerText": "Une interface ne peut contenir que des méthodes abstraites, tandis qu'une classe abstraite peut contenir des méthodes non-abstraites", "isCorrect": true}
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Qu'est-ce que l'héritage en programmation orientée objet ?",
+                "answerOptions": [
+                    {"answerText": "La capacité d'une classe à implémenter plusieurs interfaces", "isCorrect": false},
+                    {"answerText": "La capacité d'une classe à étendre les fonctionnalités d'une autre classe", "isCorrect": true },
+                    {"answerText": "La capacité d'une classe à accéder à des variables dans une autre classe", "isCorrect": false} ,
+                    {"answerText": "La capacité d'une classe à être utilisée par plusieurs objets", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Qu'est-ce qu'une exception en Java ?",
+                "answerOptions": [
+                    {"answerText": "Une erreur qui se produit à l'exécution du code", "isCorrect": true},
+                    {"answerText": "Une erreur de syntaxe dans le code", "isCorrect": false} ,
+                    {"answerText": "Un avertissement du compilateur", "isCorrect": false} ,
+                    {"answerText": "Une erreur qui se produit lors de la compilation", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Qu'est-ce que le polymorphisme en Java ?",
+                "answerOptions": [
+                    {"answerText": "C'est un mécanisme qui permet à une classe d'hériter des propriétés et des méthodes d'une autre classe", "isCorrect": false},
+                    {"answerText": "C'est un mécanisme qui permet à une méthode d'être redéfinie dans une sous-classe", "isCorrect": false} ,
+                    {"answerText": "C'est un mécanisme qui permet à une méthode d'avoir plusieurs signatures", "isCorrect": false} ,
+                    {"answerText": "C'est un mécanisme qui permet à une variable d'avoir plusieurs types", "isCorrect": true}
+                ]
+            },
+            {
+                "id": 6,
+                "questionText": "Quel est l'un des principaux objectifs de Java ?",
+                "answerOptions": [
+                    {"answerText": "Offrir une plateforme de développement web", "isCorrect": false},
+                    {"answerText": "Faciliter la gestion de base de données", "isCorrect": false} ,
+                    {"answerText": "Être un langage portable et sécurisé", "isCorrect": true} ,
+                    {"answerText": "Offrir une interface graphique pour les applications de bureau", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 7,
+                "questionText": "Qu'est-ce qu'une classe en Java ?",
+                "answerOptions": [
+                    {"answerText": "Un conteneur pour les variables et les méthodes liées à un objet", "isCorrect": true},
+                    {"answerText": "Une méthode de programmation orientée objet", "isCorrect": false} ,
+                    {"answerText": "Une fonction qui effectue une tâche spécifique", "isCorrect": false} ,
+                    {"answerText": "Une bibliothèque de fonctions prédéfinies", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 8,
+                "questionText": "Comment déclare-t-on une méthode en Java ?",
+                "answerOptions": [
+                    {"answerText": "function myMethod() {}", "isCorrect": false},
+                    {"answerText": "void myMethod() {}", "isCorrect": true} ,
+                    {"answerText": "int myMethod() {}", "isCorrect": false} ,
+                    {"answerText": "Toutes les réponses ci-dessus", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 9,
+                "questionText": "Comment peut-on créer un objet en Java ?",
+                "answerOptions": [
+                    {"answerText": "En utilisant la notation littérale d'objet : {}", "isCorrect": false},
+                    {"answerText": "En utilisant la fonction constructeur Object()", "isCorrect": false} ,
+                    {"answerText": "En utilisant le mot-clé new suivi du nom de la classe", "isCorrect": true},
+                    {"answerText": "Toutes les réponses ci-dessus", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 10,
+                "questionText": "Comment peut-on gérer les exceptions en Java ?",
+                "answerOptions": [
+                    {"answerText": "En utilisant la méthode try...catch", "isCorrect": true},
+                    {"answerText": "En utilisant la méthode throw", "isCorrect": false} ,
+                    {"answerText": "En utilisant la méthode System.out.println()", "isCorrect": false} ,
+                    {"answerText": "Toutes les réponses ci-dessus", "isCorrect": false}
+                ]
+            }
+        ]
+        
+    },
+    "api": {
+        "id": 4,
+        "containApi": [
+            {
+                "id": 1,
+                "questionText": "Qu'est-ce qu'une API ?",
+                "answerOptions": [
+                    {"answerText": "C'est un langage de programmation", "isCorrect": false},
+                    {"answerText": "C'est un logiciel qui permet de gérer une base de données", "isCorrect": false} ,
+                    {"answerText": "C'est un ensemble de règles et de protocoles pour accéder à un service ou à une ressource", "isCorrect": true },
+                    {"answerText": "C'est un outil pour tester les applications", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Quel est le rôle de l'API ?",
+                "answerOptions": [
+                    {"answerText": "Permettre aux développeurs de communiquer avec les systèmes d'exploitation", "isCorrect": false},
+                    {"answerText": "Faciliter la communication entre différentes applications", "isCorrect": false} ,
+                    {"answerText": "Les deux", "isCorrect": true} 
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Quel langage de programmation est couramment utilisé pour créer des API ?",
+                "answerOptions": [
+                    {"answerText": " Python", "isCorrect": false},
+                    {"answerText": "JavaScript", "isCorrect": false} ,
+                    {"answerText": "Tous les deux", "isCorrect": true} 
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "Quelle est la différence entre une API privée et publique ?",
+                "answerOptions": [
+                    {"answerText": "Une API privée est destinée à un usage interne, tandis qu'une API publique est destinée à un usage externe.", "isCorrect": true},
+                    {"answerText": "Une API privée est gratuite, tandis qu'une API publique est payante.", "isCorrect": false} ,
+                    {"answerText": "Il n'y a pas de différence.", "isCorrect": false} 
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Qu'est-ce que REST API signifie ?",
+                "answerOptions": [
+                    {"answerText": "Remote Execution and State Transmission API", "isCorrect": false},
+                    {"answerText": "Real-time Embedded Sensor Technology API", "isCorrect": false} ,
+                    {"answerText": "Representational State Transfer API", "isCorrect": true}
+                ]
+            },
+            {
+                "id": 6,
+                "questionText": "Quelle est la méthode HTTP couramment utilisée pour récupérer des données via une API ?",
+                "answerOptions": [
+                    {"answerText": "GET", "isCorrect": true},
+                    {"answerText": "POST", "isCorrect": false} ,
+                    {"answerText": "DELETE", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 7,
+                "questionText": "Quel est le format de données couramment utilisé pour les réponses API ?",
+                "answerOptions": [
+                    {"answerText": "XML", "isCorrect": false},
+                    {"answerText": "JSON", "isCorrect": false} ,
+                    {"answerText": "Les deux", "isCorrect": true}
+                ]
+            },
+            {
+                "id": 8,
+                "questionText": "Comment les développeurs peuvent-ils authentifier leurs demandes API ?",
+                "answerOptions": [
+                    {"answerText": "Utilisation de jetons d'authentification", "isCorrect": true},
+                    {"answerText": "Utilisation de certificats SSL", "isCorrect": false} ,
+                    {"answerText": "Les deux", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 9,
+                "questionText": "Qu'est-ce qu'un taux de limitation d'API ?",
+                "answerOptions": [
+                    {"answerText": "Le nombre de fois où une API peut être appelée par jour", "isCorrect": false},
+                    {"answerText": "Le nombre de fois où une API peut être appelée par seconde", "isCorrect": true} ,
+                    {"answerText": "Le nombre de fois où une API peut être appelée par mois", "isCorrect": false}
+                ]
+            },
+            {
+                "id": 10,
+                "questionText": "Comment les erreurs sont-elles généralement renvoyées dans les réponses API ?",
+                "answerOptions": [
+                    {"answerText": "Avec un code d'état HTTP et un message d'erreur", "isCorrect": true},
+                    {"answerText": "Avec une alerte sonore", "isCorrect": false} ,
+                    {"answerText": "Avec un avertissement dans la console du navigateur", "isCorrect": false}
+                ]
+            }
+
+        ]
+    }
+}
